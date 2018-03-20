@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="imageView_asli" type="id"/>
+    <item name="imageView_grayscale" type="id"/>
+    <item name="imageView_filter" type="id"/>
+
+    <item name="imageView_biner" type="id"/>
+    <item name="imageView_segmentation" type="id"/>
+    <item name="imageView_thinning" type="id"/>
+
+    <item name="slider_thresholding" type="id"/>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aplikasi Tanda Tangan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--Menu kiri-->
+    <string name="menuTakeLoadImage">Take/load image</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuAbout">About</string>
+    <string name="menuCheckUpdateDB">Check for Update Database</string>
+
+    <string name="copyRight">Copyright © 2018</string>
+
+</resources>
