@@ -37,4 +37,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'com.github.medyo:android-about-page:1.2.1'
+    compile group: 'com.mkobos', name: 'pca_transform', version: '1.0.1'
+
 }

@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ShapeDrawable;
@@ -41,6 +42,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mkobos.pca_transform.PCA;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
@@ -53,6 +55,8 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
+
+import Jama.Matrix;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -83,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ScrollView mScrollView;
 
     Preprocessing preprocessing;
-
-    Pca pca;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -392,6 +394,74 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         textView_hasilAkhir.setBackgroundColor(Color.WHITE);
         textView_hasilAkhir.setVisibility(View.GONE);
         outerLinearLayout.addView(textView_hasilAkhir);
+
+    }
+
+    private void tespca(){
+        File f = new File(Env.pathImgThinning);
+        File[] files = f.listFiles();
+        for (File file : files) {
+            Bitmap mBitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
+            String resultmBitmap = pcaProcess(mBitmap);
+            Log.i("PCA", resultmBitmap);
+        }
+    }
+
+    private String pcaProcess(Bitmap bmp){
+        String result = "";
+        int p,r;
+
+        for (int i = 1; i < bmp.getWidth()-1; i++) {
+            for (int j = 1; j < bmp.getHeight()-1; j++) {
+                p = bmp.getPixel(i, j);
+                r = Color.red(p);
+                int[] tmp = {
+                        Color.red(bmp.getPixel(i-1, j-1)),
+                        Color.red(bmp.getPixel(i, j-1)),
+                        Color.red(bmp.getPixel(i+1, j-1)),
+                        Color.red(bmp.getPixel(i-1, j)),
+                        Color.red(bmp.getPixel(i, j)),
+                        Color.red(bmp.getPixel(i+1, j)),
+                        Color.red(bmp.getPixel(i-1, j+1)),
+                        Color.red(bmp.getPixel(i, j+1)),
+                        Color.red(bmp.getPixel(i+1, j+1))
+                };
+                result+=","+pcaCalculate(tmp);
+            }
+        }
+        return result;
+    }
+
+    private double pcaCalculate(int[] piksel){
+        double result = 0;
+
+        //mencari nilai rata2
+        double ratarata = 0;
+        for(int i=0;i<piksel.length;i++) {
+            ratarata+=piksel[i];
+        }
+        ratarata = ratarata / piksel.length;
+
+        //mencari nilai varian
+        double varian = 0;
+        for(int i=0;i<piksel.length;i++) {
+            varian+=Math.pow(piksel[i]-ratarata ,2);
+        }
+        varian = varian/(piksel.length- 1);
+
+        //mencari nilai standar deviasi
+        double standarDeviasi = 0;
+        standarDeviasi = Math.pow(varian ,0.5);
+
+        result = standarDeviasi;
+
+        //cari eign vector
+
+        //cari nilai komponen
+
+        //,.....
+
+        return result;
     }
 
 
@@ -613,6 +683,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     //prosesPca();
                     hideDialog();
                     Toast.makeText(MainActivity.this, "Selesai", Toast.LENGTH_SHORT).show();
+                    tespca();
                 } else {
                     hideDialog();
                     Toast.makeText(MainActivity.this, "Failed to thinning the image!", Toast.LENGTH_SHORT).show();
@@ -628,47 +699,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ProcessInBackground ulc=new ProcessInBackground();
         ulc.execute();
     }
-
-    //PCA
-//    private void prosesPca() {
-//        class ProcessInBackground extends AsyncTask<Uri, Void, Boolean> {
-//
-//            @Override
-//            protected void onPreExecute() {
-//                super.onPreExecute();
-//                loading.setTitle("Process 7 of 8");
-//                loading.setMessage("PCA...");
-//
-//                //imageView_thinning.setVisibility(View.GONE);
-//                //textView_gambarThinning.setVisibility(View.GONE);
-//            }
-//
-//            @Override
-//            protected void onPostExecute(Boolean s) {
-//                super.onPostExecute(s);
-//
-//                if(s) {
-//                    hideDialog();
-//                    Toast.makeText(MainActivity.this, "Selesai", Toast.LENGTH_SHORT).show();
-//                } else {
-//                    hideDialog();
-//                    Toast.makeText(MainActivity.this, "Failed to thinning the image!", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//
-//            @Override
-//            protected Boolean doInBackground(Uri... uris) {
-//                return pca.Pca();
-//            }
-//        }
-//
-//        ProcessInBackground ulc=new ProcessInBackground();
-//        ulc.execute();
-//    }
-
-
-
-
 
 
 
