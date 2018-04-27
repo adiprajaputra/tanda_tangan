@@ -397,6 +397,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+
+    //untuk training data
     private void tespca(){
         File f = new File(Env.pathImgThinning);
         File[] files = f.listFiles();
@@ -404,7 +406,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Bitmap mBitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
             String resultmBitmap = pcaProcess(mBitmap);
             Log.i("PCA", resultmBitmap);
+
+            //ekstraksi fitur untuk 1 gambar...
+
+            //simpan hasil ekstraksi fitur ke txt beserta nama kelasnya...
+
         }
+    }
+
+    //untuk 1 testing data
+    private void testPnn() {
+        //open text ekstraksi fitur data training ...
+
+        //perhitungan pnn
+
+        //cari kelas terdekat
+
+        //hasil...
     }
 
     private String pcaProcess(Bitmap bmp){
@@ -428,6 +446,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 };
                 result+=","+pcaCalculate(tmp);
             }
+            Log.i("TES", "Sabar");
         }
         return result;
     }
@@ -455,13 +474,81 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         result = standarDeviasi;
 
-        //cari eign vector
+        //cari kovarian
+        double covarianXX = 0;
+        double covarianXY = 0;
+        double covarianYX = 0;
+        double covarianYY = 0;
+        int[] tmp = {1,4,7,2,5,8,3,6,9};
+        for(int i=0;i<piksel.length;i++) {
+            covarianXX+=((piksel[i]-ratarata)*(piksel[i]-ratarata));
+            covarianXY+=((piksel[i]-ratarata)*(tmp[i]-ratarata));
+            covarianYX+=((tmp[i]-ratarata)*(piksel[i]-ratarata));
+            covarianYY+=((tmp[i]-ratarata)*(tmp[i]-ratarata));
+        }
+        covarianXX = covarianXX/(piksel.length- 1);
+        covarianXY = covarianXY/(piksel.length- 1);
+        covarianYX = covarianYX/(piksel.length- 1);
+        covarianYY = covarianYY/(piksel.length- 1);
+        double[][] matrix = {
+            {covarianXX, covarianXY},
+            {covarianYX, covarianYY}
+        };
 
-        //cari nilai komponen
+        //penentuan element PCA untuk menjadi inputan PNN
+        double[] basis = getBasis(matrix);
+        double hasilPCA = basis[1];
+        if(basis[0]>basis[1]) {
+            hasilPCA = basis[0];
+        }
 
-        //,.....
+        return hasilPCA;
 
-        return result;
+
+
+
+//        //cari eigen vector
+//        double s = 0.0;
+//        for(int i=0;i<piksel.length;i++) {
+//            ratarata+=piksel[i];
+//            s = Math.pow(s-ratarata, 2);
+//        }
+//        s = s/(piksel.length- 1);
+//
+//        return result;
+    }
+
+    public double[] getBasis(double[][] matrix){
+
+        double a = matrix[0][0];
+        double b = matrix[0][1];
+        double c = matrix[1][0];
+        double d = matrix[1][1];
+
+        double eigenvalue1 = ((a+d) + Math.sqrt( Math.pow(a-d,2) + 4*b*c))/2;
+        double eigenvalue2 = ((a+d) - Math.sqrt( Math.pow(a-d,2) + 4*b*c))/2;
+
+        double[] basis = new double[2];
+
+        for (double y = -1000; y <= 1000; y++) {
+            for (double x = -1000; x <= 1000; x++) {
+                if (((a-eigenvalue1)*x + b*y == 0) && (c*x + (d-eigenvalue1)*y == 0)) {
+                    //System.out.println("Eigenvector1: (" + x + "," + y + ")");
+                    basis[0] = eigenvalue1;
+                }
+            }
+        }
+
+        for (double y = -10; y <= 10; y++) {
+            for (double x = -10; x <= 10; x++) {
+                if (((a-eigenvalue2)*x + b*y == 0) && (c*x + (d-eigenvalue2)*y == 0)) {
+                    //System.out.println("Eigenvector2: (" + x + "," + y + ")");
+                    basis[1] = eigenvalue2;
+                }
+            }
+        }
+
+        return basis;
     }
 
 
@@ -678,12 +765,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             protected void onPostExecute(Boolean s) {
                 super.onPostExecute(s);
+                Log.e("Error: ", "Path not fou,jygjygjykgynd");
 
                 if(s) {
                     //prosesPca();
+                    tespca();
                     hideDialog();
                     Toast.makeText(MainActivity.this, "Selesai", Toast.LENGTH_SHORT).show();
-                    tespca();
+
                 } else {
                     hideDialog();
                     Toast.makeText(MainActivity.this, "Failed to thinning the image!", Toast.LENGTH_SHORT).show();
