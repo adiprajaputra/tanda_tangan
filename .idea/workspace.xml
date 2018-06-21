@@ -6,33 +6,30 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ttd" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad888ea-5d9c-4033-b47a-1e1203d3121e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-29-38-168.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-29-38-168.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-30-46-772.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-30-46-772.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-34-32-415.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-34-32-415.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-59-18-963.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-20-23-59-18-963.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-00-05-33-760.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-00-05-33-760.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-00-13-51-281.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-00-13-51-281.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
     </list>
     <ignored path="transliterasiaksarabali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,37 +61,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="415" column="0" lean-forward="true" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+            <state relative-caret-position="7633">
+              <caret line="821" column="38" lean-forward="false" selection-start-line="821" selection-start-column="38" selection-end-line="821" selection-end-column="38" />
               <folding>
                 <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#3308#3473#0" expanded="true" />
-                <element signature="e#3472#3473#0" expanded="true" />
-                <element signature="e#3661#3692#0" expanded="true" />
-                <element signature="e#3694#3726#0" expanded="true" />
                 <element signature="method#cekPermissionKameraStorage#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#adaFileWeightClass#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#5059#5068#0" expanded="false" />
+                <element signature="e#5270#5279#0" expanded="false" />
                 <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#saveToPreferences#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#initLayout#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#10272:10874" expanded="false" />
-                <element signature="method#onProgressChanged#0;class#10272:10874" expanded="false" />
-                <element signature="method#onStartTrackingTouch#0;class#10272:10874" expanded="false" />
-                <element signature="method#onStopTrackingTouch#0;class#10272:10874" expanded="false" />
-                <element signature="method#pcaCalculate#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#getBasis#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarGrayscale#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarMedianFilter#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarBiner#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarSegmentasi#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#10483:11085" expanded="false" />
+                <element signature="method#onProgressChanged#0;class#10483:11085" expanded="false" />
+                <element signature="method#onStartTrackingTouch#0;class#10483:11085" expanded="false" />
+                <element signature="method#onStopTrackingTouch#0;class#10483:11085" expanded="false" />
                 <element signature="method#prosesGambarNormalisasi#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#30206#30335#0" expanded="true" />
-                <element signature="e#30334#30335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,24 +88,24 @@
       <file leaf-file-name="Preprocessing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+            <state relative-caret-position="1343">
+              <caret line="173" column="32" lean-forward="false" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="32" />
               <folding>
                 <element signature="docComment;class#Preprocessing#0" expanded="false" />
                 <element signature="method#convertToGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageSegmentationSmart#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageNormalization#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#5889#5914#0" expanded="false" />
+                <element signature="e#6117#6142#0" expanded="false" />
                 <element signature="method#imageSegmentationProcessSmart#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#8869#8895#0" expanded="false" />
+                <element signature="e#9097#9123#0" expanded="false" />
                 <element signature="method#imageSegmentationProcessNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#deleteAllImage#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#countHeightAksara#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#tesArea#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramX#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cropTopBottom#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#17397#17407#0" expanded="false" />
+                <element signature="e#17625#17635#0" expanded="false" />
                 <element signature="method#createHistogramY#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramY#1;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramY#2;class#Preprocessing#0" expanded="false" />
@@ -129,40 +114,60 @@
                 <element signature="method#findCoordinatesY#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#findCoordinatesX#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#findCoordinatesFitX#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#25684#25698#0" expanded="false" />
+                <element signature="e#25912#25926#0" expanded="false" />
                 <element signature="method#normalizationCoordinatesHistogram#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#saveAllImageSegmentations#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#27129#27153#0" expanded="false" />
+                <element signature="e#27357#27381#0" expanded="false" />
                 <element signature="method#saveImagesSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#normalizationImage#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#29119#29150#0" expanded="false" />
+                <element signature="e#29347#29378#0" expanded="false" />
                 <element signature="method#thinningImageStentiford#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cek_jumlah_tetangga_objek#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cek_jumlah_konektivitas#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#35422#35433#0" expanded="false" />
-                <element signature="e#36730#36765#0" expanded="false" />
+                <element signature="e#35650#35661#0" expanded="false" />
+                <element signature="e#36958#36993#0" expanded="false" />
                 <element signature="method#storeImageGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#37561#37619#0" expanded="false" />
-                <element signature="e#37761#37832#0" expanded="false" />
+                <element signature="e#37789#37847#0" expanded="false" />
+                <element signature="e#37989#38060#0" expanded="false" />
                 <element signature="method#storeImageSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#39152#39210#0" expanded="false" />
-                <element signature="e#39358#39429#0" expanded="false" />
+                <element signature="e#39380#39438#0" expanded="false" />
+                <element signature="e#39586#39657#0" expanded="false" />
                 <element signature="method#storeImageSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#40764#40822#0" expanded="false" />
-                <element signature="e#40971#41042#0" expanded="false" />
+                <element signature="e#40992#41050#0" expanded="false" />
+                <element signature="e#41199#41270#0" expanded="false" />
                 <element signature="method#storeImageSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#42384#42442#0" expanded="false" />
-                <element signature="e#42594#42665#0" expanded="false" />
+                <element signature="e#42612#42670#0" expanded="false" />
+                <element signature="e#42822#42893#0" expanded="false" />
                 <element signature="method#storeImageSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#43929#43987#0" expanded="false" />
-                <element signature="e#44140#44211#0" expanded="false" />
-                <element signature="e#45634#45705#0" expanded="false" />
+                <element signature="e#44157#44215#0" expanded="false" />
+                <element signature="e#44368#44439#0" expanded="false" />
+                <element signature="e#45862#45933#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Env.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,8 +192,8 @@
       <find>storeImageThinning</find>
       <find>thinningImageStentiford</find>
       <find>pcaProcess</find>
-      <find>thinningImage</find>
       <find>tespca</find>
+      <find>thinningImage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1933,24 +1938,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/agussuarya/transliterasiaksarabali/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/agussuarya/transliterasiaksarabali/Env.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Median_filter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Pca.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PCA.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/Assume.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/DataReader.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/SampleRun.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PrincipalComponentAnalysis.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" />
       </list>
     </option>
   </component>
@@ -1977,8 +1982,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1993,6 +1996,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2007,6 +2011,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2086,7 +2091,7 @@
       <option name="ACTIVITY_CLASS" value="com.pace.aplikasittd.MainActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524845992698" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529599598606" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2159,7 +2164,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524845992699" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529599598606" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2207,7 +2212,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524845992699" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529599598607" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2239,27 +2244,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2390,7 +2374,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524845992700" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529599598609" />
       </method>
     </configuration>
     <list size="2">
@@ -2449,9 +2433,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32550335" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.5059423" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2460,7 +2443,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44966444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44966444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.49405771" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -2479,6 +2462,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2556,30 +2540,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#3308#3473#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3661#3692#0" expanded="true" />
-            <element signature="e#3694#3726#0" expanded="true" />
             <element signature="method#cekPermissionKameraStorage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#adaFileWeightClass#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#5059#5068#0" expanded="false" />
+            <element signature="e#5270#5279#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#saveToPreferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initLayout#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#10272:10874" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#10272:10874" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#10272:10874" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#10272:10874" expanded="false" />
-            <element signature="method#pcaCalculate#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#getBasis#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarGrayscale#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarMedianFilter#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarBiner#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarSegmentasi#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#10483:11085" expanded="false" />
+            <element signature="method#onProgressChanged#0;class#10483:11085" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#10483:11085" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#10483:11085" expanded="false" />
             <element signature="method#prosesGambarNormalisasi#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#30206#30335#0" expanded="true" />
-            <element signature="e#30334#30335#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2746,44 +2718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PCA.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -2806,34 +2740,65 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/SampleRun.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/PCA.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PrincipalComponentAnalysis.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="697">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="1343">
+          <caret line="173" column="32" lean-forward="false" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="32" />
           <folding>
             <element signature="docComment;class#Preprocessing#0" expanded="false" />
             <element signature="method#convertToGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageSegmentationSmart#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageNormalization#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#5889#5914#0" expanded="false" />
+            <element signature="e#6117#6142#0" expanded="false" />
             <element signature="method#imageSegmentationProcessSmart#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#8869#8895#0" expanded="false" />
+            <element signature="e#9097#9123#0" expanded="false" />
             <element signature="method#imageSegmentationProcessNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#deleteAllImage#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#countHeightAksara#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#tesArea#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramX#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cropTopBottom#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#17397#17407#0" expanded="false" />
+            <element signature="e#17625#17635#0" expanded="false" />
             <element signature="method#createHistogramY#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramY#1;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramY#2;class#Preprocessing#0" expanded="false" />
@@ -2842,74 +2807,70 @@
             <element signature="method#findCoordinatesY#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#findCoordinatesX#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#findCoordinatesFitX#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#25684#25698#0" expanded="false" />
+            <element signature="e#25912#25926#0" expanded="false" />
             <element signature="method#normalizationCoordinatesHistogram#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#saveAllImageSegmentations#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#27129#27153#0" expanded="false" />
+            <element signature="e#27357#27381#0" expanded="false" />
             <element signature="method#saveImagesSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#normalizationImage#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#29119#29150#0" expanded="false" />
+            <element signature="e#29347#29378#0" expanded="false" />
             <element signature="method#thinningImageStentiford#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cek_jumlah_tetangga_objek#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cek_jumlah_konektivitas#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#35422#35433#0" expanded="false" />
-            <element signature="e#36730#36765#0" expanded="false" />
+            <element signature="e#35650#35661#0" expanded="false" />
+            <element signature="e#36958#36993#0" expanded="false" />
             <element signature="method#storeImageGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#37561#37619#0" expanded="false" />
-            <element signature="e#37761#37832#0" expanded="false" />
+            <element signature="e#37789#37847#0" expanded="false" />
+            <element signature="e#37989#38060#0" expanded="false" />
             <element signature="method#storeImageSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#39152#39210#0" expanded="false" />
-            <element signature="e#39358#39429#0" expanded="false" />
+            <element signature="e#39380#39438#0" expanded="false" />
+            <element signature="e#39586#39657#0" expanded="false" />
             <element signature="method#storeImageSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#40764#40822#0" expanded="false" />
-            <element signature="e#40971#41042#0" expanded="false" />
+            <element signature="e#40992#41050#0" expanded="false" />
+            <element signature="e#41199#41270#0" expanded="false" />
             <element signature="method#storeImageSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#42384#42442#0" expanded="false" />
-            <element signature="e#42594#42665#0" expanded="false" />
+            <element signature="e#42612#42670#0" expanded="false" />
+            <element signature="e#42822#42893#0" expanded="false" />
             <element signature="method#storeImageSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#43929#43987#0" expanded="false" />
-            <element signature="e#44140#44211#0" expanded="false" />
-            <element signature="e#45634#45705#0" expanded="false" />
+            <element signature="e#44157#44215#0" expanded="false" />
+            <element signature="e#44368#44439#0" expanded="false" />
+            <element signature="e#45862#45933#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="415" column="0" lean-forward="true" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+        <state relative-caret-position="7633">
+          <caret line="821" column="38" lean-forward="false" selection-start-line="821" selection-start-column="38" selection-end-line="821" selection-end-column="38" />
           <folding>
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#3308#3473#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3661#3692#0" expanded="true" />
-            <element signature="e#3694#3726#0" expanded="true" />
             <element signature="method#cekPermissionKameraStorage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#adaFileWeightClass#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#5059#5068#0" expanded="false" />
+            <element signature="e#5270#5279#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#saveToPreferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initLayout#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#10272:10874" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#10272:10874" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#10272:10874" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#10272:10874" expanded="false" />
-            <element signature="method#pcaCalculate#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#getBasis#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarGrayscale#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarMedianFilter#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarBiner#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarSegmentasi#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#10483:11085" expanded="false" />
+            <element signature="method#onProgressChanged#0;class#10483:11085" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#10483:11085" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#10483:11085" expanded="false" />
             <element signature="method#prosesGambarNormalisasi#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#30206#30335#0" expanded="true" />
-            <element signature="e#30334#30335#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -64,4 +64,6 @@ final class Env {
             + "/Android/data/"
             + BuildConfig.APPLICATION_ID
             + "/SegmentationNormalBiner";
+
+    static final String UPLOAD_URL = "http://192.168.43.175/upload";
 }
