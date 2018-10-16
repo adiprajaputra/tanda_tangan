@@ -16,7 +16,7 @@ final class Env {
     static int DEFAULT_VALUE_SEEKBAR = MAX_VALUE_SEEKBAR/2;
     static int thresholdBiner = 127; /*threshold min = 40, max = 255 berdasarkan dari MAX_VALUE_SEEKBAR*/
     static int RATE_VALUE = thresholdBiner - DEFAULT_VALUE_SEEKBAR;
-    static int sizeNormalizationImage = 64;
+    static int sizeNormalizationImage = 100;
 
     static boolean modeSmartSegmentation = false; /*false = normal,  true = smart*/
 
@@ -65,5 +65,5 @@ final class Env {
             + BuildConfig.APPLICATION_ID
             + "/SegmentationNormalBiner";
 
-    static final String UPLOAD_URL = "http://192.168.43.175/upload";
+    static final String UPLOAD_URL = "http://192.168.43.175:8000/upload";
 }

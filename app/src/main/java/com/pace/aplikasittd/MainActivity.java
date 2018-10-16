@@ -18,23 +18,24 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -42,25 +43,27 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mkobos.pca_transform.PCA;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
-
-import net.gotev.uploadservice.MultipartUploadRequest;
-import net.gotev.uploadservice.UploadNotificationConfig;
 
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.util.UUID;
-
-import Jama.Matrix;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -791,7 +794,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     //prosesPca();
                     //tespca();
                     hideDialog();
-                    Toast.makeText(MainActivity.this, "Selesai", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Selesai", Toast.LENGTH_SHORT).show();
 
                 } else {
                     hideDialog();
@@ -812,17 +815,128 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void uploadMultipart(String pathImg) {
         //Uploading code
         try {
-            String uploadId = UUID.randomUUID().toString();
-            Log.i(TAG, "Start upload file: " + pathImg);
-            //Creating a multi part request
-            new MultipartUploadRequest(this, uploadId, Env.UPLOAD_URL)
-                    .addFileToUpload(pathImg, "file") //Adding file
-                    .setNotificationConfig(new UploadNotificationConfig())
-                    .setMaxRetries(10)
-                    .startUpload(); //Starting the upload
+//            String uploadId = UUID.randomUUID().toString();
+//            Log.i(TAG, "Start upload file: " + pathImg);
+//            //Creating a multi part request
+//            new MultipartUploadRequest(this, uploadId, Env.UPLOAD_URL)
+//                    .addFileToUpload(pathImg, "file") //Adding file
+//                    .setNotificationConfig(new UploadNotificationConfig())
+//                    .setMaxRetries(10)
+//                    .startUpload(); //Starting the uploadId
+
+            //executeMultipartPost(pathImg);
+//            SendHttpRequestTask t = new SendHttpRequestTask();
+//            String[] params = new String[]{Env.UPLOAD_URL, "a", "b"};
+//            t.execute(params);
+
+            File sd = Environment.getExternalStorageDirectory();
+            File image = new File(pathImg);
+            BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+            Bitmap bitmap = BitmapFactory.decodeFile(image.getAbsolutePath(),bmOptions);
+            SendHttpRequestTask ulc=new SendHttpRequestTask();
+            ulc.execute(bitmap);
 
         } catch (Exception exc) {
             Log.d(TAG, "Error accessing file: " + exc.getMessage());
+        }
+
+    }
+
+    private class SendHttpRequestTask extends AsyncTask<Bitmap, Void, String> {
+        String attachmentName = "file";
+        String attachmentFileName = "file123.png";
+        String crlf = "\r\n";
+        String twoHyphens = "--";
+        String boundary =  "*****";
+        String response;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(Bitmap... bitmaps) {
+            HttpURLConnection httpUrlConnection = null;
+            URL url = null;
+            try {
+                url = new URL(Env.UPLOAD_URL);
+                httpUrlConnection = (HttpURLConnection) url.openConnection();
+                httpUrlConnection.setUseCaches(false);
+                httpUrlConnection.setDoOutput(true);
+
+                httpUrlConnection.setRequestMethod("POST");
+                //httpUrlConnection.setRequestProperty("Connection", "Keep-Alive");
+                httpUrlConnection.setRequestProperty("Cache-Control", "no-cache");
+                httpUrlConnection.setRequestProperty(
+                        "Content-Type", " multipart/form-data;boundary=" + this.boundary);
+
+                DataOutputStream request = new DataOutputStream(
+                        httpUrlConnection.getOutputStream());
+
+                request.writeBytes(this.twoHyphens + this.boundary + this.crlf);
+                request.writeBytes("Content-Disposition: form-data; name=\"" +
+                        this.attachmentName + "\"; filename=\"" +
+                        this.attachmentFileName + "\"" + this.crlf);
+                request.writeBytes("Content-Type: image/png" + this.crlf);
+                request.writeBytes(this.crlf);
+
+                ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                bitmaps[0].compress(Bitmap.CompressFormat.PNG, 100, stream);
+                byte[] pixels = stream.toByteArray();
+
+//                byte[] pixels = new byte[ bitmaps[0].getWidth() *  bitmaps[0].getHeight()];
+//                for (int i = 0; i < bitmaps[0].getWidth(); ++i) {
+//                    for (int j = 0; j <  bitmaps[0].getHeight(); ++j) {
+//                        //we're interested only in the MSB of the first byte,
+//                        //since the other 3 bytes are identical for B&W images
+//                        pixels[i + j] = (byte) (( bitmaps[0].getPixel(i, j) & 0x80) >> 7);
+//                    }
+//                }
+
+                request.write(pixels);
+
+                request.writeBytes(this.crlf);
+                request.writeBytes(this.twoHyphens + this.boundary +
+                        this.twoHyphens + this.crlf);
+
+                request.flush();
+                request.close();
+
+                InputStream responseStream = new
+                        BufferedInputStream(httpUrlConnection.getInputStream());
+
+                BufferedReader responseStreamReader =
+                        new BufferedReader(new InputStreamReader(responseStream));
+
+                String line = "";
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while ((line = responseStreamReader.readLine()) != null) {
+                    stringBuilder.append(line).append("\n");
+                }
+                responseStreamReader.close();
+
+                this.response = stringBuilder.toString();
+
+                responseStream.close();
+                httpUrlConnection.disconnect();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return this.response;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            Toast.makeText(MainActivity.this, s, Toast.LENGTH_SHORT).show();
+            //Log.i(TAG, s);
+            textView_hasilAkhir.setVisibility(View.VISIBLE);
+            textView_hasilAkhir.setText(s);
+
         }
     }
 
