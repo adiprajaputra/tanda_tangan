@@ -625,6 +625,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             protected void onPostExecute(Bitmap s) {
                 super.onPostExecute(s);
 
+                preprocessing.setImgMasukan(s);
+
                 ImageView imv;
                 imv = (ImageView) findViewById(R.id.imageView_filter);
                 imv.setImageBitmap(s);

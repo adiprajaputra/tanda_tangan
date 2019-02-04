@@ -82,7 +82,7 @@ public class MedianFilter extends ImageFilter {
         if (size % 2 != 0) {
             return values.get(size/2);
         } else {
-            return (values.get(size/2) + values.get(size/2 - 1))/2;
+            return (values.get(size/2) + values.get(size/2 + 1))/2;
         }
     }
 }

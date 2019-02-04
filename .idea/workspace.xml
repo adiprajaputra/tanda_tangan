@@ -11,185 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad888ea-5d9c-4033-b47a-1e1203d3121e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/fluent-hc-4.5.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/httpclient-4.5.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/httpclient-cache-4.5.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/httpclient-win-4.5.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/httpcore-4.4.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/httpmime-4.5.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jna-4.4.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/jna-platform-4.4.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-29-48-704.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-32-32-502.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-33-17-526.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-34-40-631.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-36-36-677.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-36-46-250.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-37-03-532.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-38-23-412.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-40-13-515.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-42-16-655.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-47-07-241.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-52-48-973.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-07-54-764.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-09-05-648.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-11-33-448.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-03-32-773.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-04-39-516.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-09-45-198.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-22-53-14-745.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-22-53-54-479.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-08-02-577.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-09-07-203.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-10-28-218.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-13-06-983.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-19-04-163.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-22-55-019.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-26-35-167.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-28-38-517.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-31-57-465.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-33-23-836.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-35-57-209.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-39-05-321.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-41-34-007.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-46-11-299.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-47-55-270.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-49-37-662.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-50-31-132.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-52-36-261.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-54-58-076.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-01-47-566.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-05-41-288.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-06-36-358.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-10-15-427.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-11-02-802.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-15-23-655.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-20-17-572.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-28-01-473.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-32-11-951.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-34-13-565.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-38-38-965.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-54-44-256.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-55-02-824.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-56-20-857.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-01-55-24-656.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-01-58-45-843.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-54-48-899.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-55-45-147.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-56-31-379.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_commons_codec_1_10_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_commons_logging_1_2_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_fluent_hc_4_5_6_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_httpclient_4_5_6_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_httpclient_cache_4_5_6_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_httpclient_win_4_5_6_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_httpcore_4_4_10_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_httpmime_4_5_6_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_jna_4_4_0_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__Users_Pace_AndroidStudioProjects_Apps_Tanda_Tangan_V1_app_libs_jna_platform_4_4_0_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/net_gotev_uploadservice_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-29-48-704.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-32-32-502.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-33-17-526.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-34-40-631.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-36-36-677.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-36-46-250.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-37-03-532.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-38-23-412.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-40-13-515.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-42-16-655.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-47-07-241.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-00-52-48-973.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-07-54-764.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-09-05-648.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-01-11-33-448.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-03-32-773.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-04-39-516.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-25-02-09-45-198.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-22-53-14-745.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-22-53-54-479.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-08-02-577.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-09-07-203.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-10-28-218.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-13-06-983.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-19-04-163.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-22-55-019.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-26-35-167.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-28-38-517.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-31-57-465.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-33-23-836.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-35-57-209.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-39-05-321.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-41-34-007.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-46-11-299.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-47-55-270.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-49-37-662.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-50-31-132.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-52-36-261.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-08-31-23-54-58-076.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-01-47-566.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-05-41-288.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-06-36-358.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-10-15-427.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-11-02-802.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-15-23-655.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-20-17-572.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-28-01-473.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-32-11-951.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-34-13-565.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-38-38-965.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-54-44-256.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-55-02-824.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-00-56-20-857.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-01-55-24-656.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-09-01-01-58-45-843.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-54-48-899.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-55-45-147.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-10-15-13-56-31-379.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-54-31-944.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-54-31-944.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-55-53-247.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-55-53-247.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-58-53-455.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-22-58-53-455.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-02-23-750.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-02-23-750.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-07-09-146.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-07-09-146.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-07-52-100.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-07-52-100.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-09-21-825.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-09-21-825.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-10-52-843.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-10-52-843.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-12-57-009.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-12-57-009.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-16-37-458.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-16-37-458.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-19-18-485.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-19-18-485.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-24-22-419.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-23-24-22-419.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
     </list>
     <ignored path="transliterasiaksarabali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -202,6 +34,10 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -221,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="846" column="48" lean-forward="false" selection-start-line="846" selection-start-column="48" selection-end-line="846" selection-end-column="48" />
+            <state relative-caret-position="2567">
+              <caret line="627" column="36" lean-forward="false" selection-start-line="627" selection-start-column="0" selection-end-line="628" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
@@ -242,8 +78,9 @@
                 <element signature="method#onStopTrackingTouch#0;class#10615:11217" expanded="false" />
                 <element signature="e#17129#17157#0" expanded="false" />
                 <element signature="method#prosesGambarGrayscale#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarMedianFilter#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#prosesGambarBiner#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPreExecute#0;class#25355:26853" expanded="false" />
+                <element signature="e#26773#26774#0" expanded="true" />
+                <element signature="e#26842#26843#0" expanded="true" />
                 <element signature="method#prosesGambarSegmentasi#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#prosesGambarNormalisasi#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#prosesGambarThinning#0;class#MainActivity#0" expanded="false" />
@@ -257,10 +94,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MedianFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="78" column="33" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+              <folding>
+                <element signature="e#1061#1070#0" expanded="true" />
+                <element signature="e#1137#1146#0" expanded="true" />
+                <element signature="e#1212#1221#0" expanded="true" />
+                <element signature="e#1288#1297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="42" column="41" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="42" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitmapUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Env.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="204">
               <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding />
             </state>
@@ -270,25 +142,29 @@
       <file leaf-file-name="Preprocessing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="209" column="52" lean-forward="false" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
+            <state relative-caret-position="561">
+              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="docComment;class#Preprocessing#0" expanded="false" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
                 <element signature="method#convertToGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageSegmentationSmart#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#imageNormalization#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#thinningImage#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#6117#6142#0" expanded="false" />
+                <element signature="e#6199#6224#0" expanded="false" />
                 <element signature="method#imageSegmentationProcessSmart#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#9097#9123#0" expanded="false" />
+                <element signature="e#9179#9205#0" expanded="false" />
                 <element signature="method#imageSegmentationProcessNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#deleteAllImage#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#countHeightAksara#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#tesArea#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramX#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cropTopBottom#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#17625#17635#0" expanded="false" />
+                <element signature="e#17707#17717#0" expanded="false" />
                 <element signature="method#createHistogramY#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramY#1;class#Preprocessing#0" expanded="false" />
                 <element signature="method#createHistogramY#2;class#Preprocessing#0" expanded="false" />
@@ -297,39 +173,40 @@
                 <element signature="method#findCoordinatesY#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#findCoordinatesX#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#findCoordinatesFitX#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#25912#25926#0" expanded="false" />
+                <element signature="e#25994#26008#0" expanded="false" />
                 <element signature="method#normalizationCoordinatesHistogram#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#saveAllImageSegmentations#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#27357#27381#0" expanded="false" />
+                <element signature="e#27439#27463#0" expanded="false" />
                 <element signature="method#saveImagesSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#normalizationImage#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#29347#29378#0" expanded="false" />
+                <element signature="e#29429#29460#0" expanded="false" />
                 <element signature="method#thinningImageStentiford#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cek_jumlah_tetangga_objek#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#cek_jumlah_konektivitas#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#35650#35661#0" expanded="false" />
-                <element signature="e#36958#36993#0" expanded="false" />
+                <element signature="e#35732#35743#0" expanded="false" />
+                <element signature="e#37040#37075#0" expanded="false" />
                 <element signature="method#storeImageGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#37789#37847#0" expanded="false" />
-                <element signature="e#37989#38060#0" expanded="false" />
+                <element signature="e#37871#37929#0" expanded="false" />
+                <element signature="e#38071#38142#0" expanded="false" />
                 <element signature="method#storeImageSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#39380#39438#0" expanded="false" />
-                <element signature="e#39586#39657#0" expanded="false" />
+                <element signature="e#39462#39520#0" expanded="false" />
+                <element signature="e#39668#39739#0" expanded="false" />
                 <element signature="method#storeImageSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#40992#41050#0" expanded="false" />
-                <element signature="e#41199#41270#0" expanded="false" />
+                <element signature="e#41074#41132#0" expanded="false" />
+                <element signature="e#41281#41352#0" expanded="false" />
                 <element signature="method#storeImageSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#42612#42670#0" expanded="false" />
-                <element signature="e#42822#42893#0" expanded="false" />
+                <element signature="e#42694#42752#0" expanded="false" />
+                <element signature="e#42904#42975#0" expanded="false" />
                 <element signature="method#storeImageSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
                 <element signature="method#getOutputMediaFileSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
-                <element signature="e#44157#44215#0" expanded="false" />
-                <element signature="e#44368#44439#0" expanded="false" />
-                <element signature="e#45862#45933#0" expanded="false" />
+                <element signature="e#44239#44297#0" expanded="false" />
+                <element signature="e#44450#44521#0" expanded="false" />
+                <element signature="method#storeImageThinning#0;class#Preprocessing#0" expanded="false" />
+                <element signature="e#45944#46015#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -367,6 +244,11 @@
       <find>textView_hasil</find>
       <find>no</find>
       <find>textView_hasilAkhir</find>
+      <find>prosesGambarBiner</find>
+      <find>urigambarttd</find>
+      <find>imageView_filter</find>
+      <find>ImageView</find>
+      <find>onPostExecute</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2118,17 +2000,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Pca.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PCA.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/Assume.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/DataReader.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/SampleRun.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PrincipalComponentAnalysis.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2154,84 +2036,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aplikasittd" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -2242,6 +2046,21 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apps_Tanda_Tangan_V1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2275,7 +2094,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2358,7 +2176,7 @@
       <option name="ACTIVITY_CLASS" value="com.pace.aplikasittd.MainActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1539669818427" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549291319394" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2431,7 +2249,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1539669818427" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549291319394" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2479,7 +2297,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1539669818427" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549291319394" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2641,7 +2459,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1539669818427" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549291319394" />
       </method>
     </configuration>
     <list size="2">
@@ -2708,8 +2526,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40939596" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751678" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751678" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4261745" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.49405771" order="2" side_tool="false" content_ui="tabs" />
@@ -2721,8 +2539,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40939596" sideWeight="0.49546143" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20554273" sideWeight="0.50570965" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40939596" sideWeight="0.49546143" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2796,27 +2614,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java</url>
-          <line>887</line>
-          <properties />
-          <option name="timeStamp" value="312" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java</url>
-          <line>899</line>
-          <properties />
-          <option name="timeStamp" value="313" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java</url>
-          <line>835</line>
-          <properties />
-          <option name="timeStamp" value="314" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="315" />
+      <option name="time" value="318" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2922,16 +2720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2989,44 +2777,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/SampleRun.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/pca_transform/PCA.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/PrincipalComponentAnalysis.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -3039,37 +2792,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="75" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Preprocessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="209" column="52" lean-forward="false" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
+        <state relative-caret-position="561">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="docComment;class#Preprocessing#0" expanded="false" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
             <element signature="method#convertToGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageSegmentationSmart#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#imageNormalization#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#thinningImage#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#6117#6142#0" expanded="false" />
+            <element signature="e#6199#6224#0" expanded="false" />
             <element signature="method#imageSegmentationProcessSmart#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#9097#9123#0" expanded="false" />
+            <element signature="e#9179#9205#0" expanded="false" />
             <element signature="method#imageSegmentationProcessNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#deleteAllImage#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#countHeightAksara#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#tesArea#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramX#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cropTopBottom#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#17625#17635#0" expanded="false" />
+            <element signature="e#17707#17717#0" expanded="false" />
             <element signature="method#createHistogramY#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramY#1;class#Preprocessing#0" expanded="false" />
             <element signature="method#createHistogramY#2;class#Preprocessing#0" expanded="false" />
@@ -3078,55 +2867,48 @@
             <element signature="method#findCoordinatesY#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#findCoordinatesX#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#findCoordinatesFitX#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#25912#25926#0" expanded="false" />
+            <element signature="e#25994#26008#0" expanded="false" />
             <element signature="method#normalizationCoordinatesHistogram#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#saveAllImageSegmentations#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#27357#27381#0" expanded="false" />
+            <element signature="e#27439#27463#0" expanded="false" />
             <element signature="method#saveImagesSegmentationNormal#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#normalizationImage#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#29347#29378#0" expanded="false" />
+            <element signature="e#29429#29460#0" expanded="false" />
             <element signature="method#thinningImageStentiford#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cek_jumlah_tetangga_objek#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#cek_jumlah_konektivitas#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#35650#35661#0" expanded="false" />
-            <element signature="e#36958#36993#0" expanded="false" />
+            <element signature="e#35732#35743#0" expanded="false" />
+            <element signature="e#37040#37075#0" expanded="false" />
             <element signature="method#storeImageGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#37789#37847#0" expanded="false" />
-            <element signature="e#37989#38060#0" expanded="false" />
+            <element signature="e#37871#37929#0" expanded="false" />
+            <element signature="e#38071#38142#0" expanded="false" />
             <element signature="method#storeImageSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#39380#39438#0" expanded="false" />
-            <element signature="e#39586#39657#0" expanded="false" />
+            <element signature="e#39462#39520#0" expanded="false" />
+            <element signature="e#39668#39739#0" expanded="false" />
             <element signature="method#storeImageSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationBiner#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#40992#41050#0" expanded="false" />
-            <element signature="e#41199#41270#0" expanded="false" />
+            <element signature="e#41074#41132#0" expanded="false" />
+            <element signature="e#41281#41352#0" expanded="false" />
             <element signature="method#storeImageSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationNormalGrayscale#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#42612#42670#0" expanded="false" />
-            <element signature="e#42822#42893#0" expanded="false" />
+            <element signature="e#42694#42752#0" expanded="false" />
+            <element signature="e#42904#42975#0" expanded="false" />
             <element signature="method#storeImageSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
             <element signature="method#getOutputMediaFileSegmentationNormalBiner#0;class#Preprocessing#0" expanded="false" />
-            <element signature="e#44157#44215#0" expanded="false" />
-            <element signature="e#44368#44439#0" expanded="false" />
-            <element signature="e#45862#45933#0" expanded="false" />
+            <element signature="e#44239#44297#0" expanded="false" />
+            <element signature="e#44450#44521#0" expanded="false" />
+            <element signature="method#storeImageThinning#0;class#Preprocessing#0" expanded="false" />
+            <element signature="e#45944#46015#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/Env.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="846" column="48" lean-forward="false" selection-start-line="846" selection-start-column="48" selection-end-line="846" selection-end-column="48" />
+        <state relative-caret-position="2567">
+          <caret line="627" column="36" lean-forward="false" selection-start-line="627" selection-start-column="0" selection-end-line="628" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
@@ -3143,8 +2925,9 @@
             <element signature="method#onStopTrackingTouch#0;class#10615:11217" expanded="false" />
             <element signature="e#17129#17157#0" expanded="false" />
             <element signature="method#prosesGambarGrayscale#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarMedianFilter#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#prosesGambarBiner#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPreExecute#0;class#25355:26853" expanded="false" />
+            <element signature="e#26773#26774#0" expanded="true" />
+            <element signature="e#26842#26843#0" expanded="true" />
             <element signature="method#prosesGambarSegmentasi#0;class#MainActivity#0" expanded="false" />
             <element signature="method#prosesGambarNormalisasi#0;class#MainActivity#0" expanded="false" />
             <element signature="method#prosesGambarThinning#0;class#MainActivity#0" expanded="false" />
@@ -3153,6 +2936,35 @@
             <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
             <element signature="method#coomingSoon#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/ImageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/BitmapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pace/aplikasittd/MedianFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="78" column="33" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+          <folding>
+            <element signature="e#1061#1070#0" expanded="true" />
+            <element signature="e#1137#1146#0" expanded="true" />
+            <element signature="e#1212#1221#0" expanded="true" />
+            <element signature="e#1288#1297#0" expanded="true" />
           </folding>
         </state>
       </provider>

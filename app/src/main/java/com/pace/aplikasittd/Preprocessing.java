@@ -53,6 +53,10 @@ public class Preprocessing {
         return imgHasil;
     }
 
+    public void setImgMasukan(Bitmap bmp) {
+        this.imgMasukan = bmp;
+    }
+
     public Bitmap getImgVisualisasiSegmentasi() {
         return imgVisualisasiSegmentasi;
     }
